@@ -1,0 +1,27 @@
+{
+  "name": "axasz-admin",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone Sanity Studio for AXASZ STORE",
+  "main": "package.json",
+  "author": "Ajnas18",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.36.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^3.0.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
